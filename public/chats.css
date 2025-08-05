@@ -1,0 +1,99 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    margin: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #444;
+    padding-bottom: 0.5rem;
+  }
+  
+  .chat-card {
+    background-color: #111;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+  }
+  
+  .chat-card p {
+    margin: 0.4rem 0;
+    font-size: 1rem;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #0ff;
+  }
+  
+  .chat-actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .chat-actions form {
+    display: inline;
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .btn.update {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn.update:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn.delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn.delete:hover {
+    background-color: #a71d2a;
+  }
+
+  .create-chat {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .create-chat form {
+    display: inline-block;
+  }
+  
+  .btn.create {
+    background-color: #28a745;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn.create:hover {
+    background-color: #1e7e34;
+  }

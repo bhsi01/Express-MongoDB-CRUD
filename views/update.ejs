@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Update Message</title>
+  <link rel="stylesheet" href="/update.css" />
+</head>
+<body>
+  <main class="update-container">
+    <h1>Update Message</h1>
+
+    <form action="/chats/<%= data._id %>/update?_method=PATCH" method="POST">
+      <textarea 
+        name="message" 
+        placeholder="Update message" 
+        cols="30" 
+        rows="10"
+        required><%= data.message %></textarea>
+
+      <button type="submit" class="btn">Update</button>
+    </form>
+  </main>
+</body>
+</html>
